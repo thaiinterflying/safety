@@ -34,6 +34,6 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`==================================================`);
   console.log(`TIF Safety Form Server is running!`);
-  console.log(`URL: http://localhost:${PORT}/idex.html`);
+  console.log(`URL: http://localhost:${PORT}/index.html`);
   console.log(`==================================================`);
 });
