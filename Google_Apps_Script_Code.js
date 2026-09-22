@@ -19,7 +19,7 @@
  * ==============================================================================
  */
 
-const TARGET_EMAIL = "SafetyCompliance@tif.ac.th";  // อีเมลปลายทางหลัก
+const TARGET_EMAIL = "pratana.pat@tif.ac.th";  // อีเมลปลายทางหลัก
 const CC_EMAIL = "";                                // เช่น pratana.pat@tif.ac.th (หากต้องการ CC)
 
 function doPost(e) {
