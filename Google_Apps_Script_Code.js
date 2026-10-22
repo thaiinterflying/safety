@@ -19,8 +19,8 @@
  * ==============================================================================
  */
 
-const TARGET_EMAIL = "pratana.pat@tif.ac.th";  // อีเมลปลายทางหลัก
-const CC_EMAIL = "";                                // เช่น pratana.pat@tif.ac.th (หากต้องการ CC)
+const TARGET_EMAIL = "aaksarapak.han@tif.ac.th";  // อีเมลปลายทางหลัก (ส่งเฉพาะคนนี้)
+const CC_EMAIL = "";                                // ไม่มี CC (ส่งเฉพาะอีเมลหลักเท่านั้น)
 
 function doPost(e) {
   const lock = LockService.getScriptLock();

@@ -70,7 +70,7 @@
   <div class="meta">
     <span>เลขที่รายงาน / <b>Report No.</b> <b id="refShow"></b></span>
     <span>สถานะ / Status: <b>ฉบับร่าง (Draft)</b></span>
-    <span>ส่งถึง / To: <b>Safety Manager (SM)</b></span>
+    <span>ส่งถึง / To: <b>aaksarapak.han@tif.ac.th</b></span>
   </div>
 
   <form id="frm" novalidate>
@@ -105,10 +105,10 @@
         <input type="date" id="sdate"></div>
     </div>
 
-    <div class="toline">ส่งฟอร์มนี้ถึง <b>Safety Manager</b> — <b id="smShow"></b></div>
+    <div class="toline">ส่งฟอร์มนี้ถึง: <b id="smShow"></b></div>
 
     <div class="actions">
-      <button type="button" id="btnSubmit" class="btn" onclick="sendToSM()">✉️ ส่งให้ Safety Manager / Submit to SM</button>
+      <button type="button" id="btnSubmit" class="btn" onclick="sendToSM()">✉️ ส่งรายงานทางอีเมล / Submit</button>
       <button type="button" class="btn ghost" onclick="copyText()">📋 คัดลอกเนื้อหา</button>
       <button type="button" class="btn ghost" onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button>
     </div>
@@ -119,8 +119,8 @@
 
 <script>
 /* ====== ตั้งค่าการส่งข้อมูล ====== */
-const SM_EMAIL = "pratana.pat@tif.ac.th";   // อีเมลผู้รับหลัก
-const CC_EMAIL = "";                             // อีเมลสำเนา (ไม่บังคับ) เช่น CC: pratana.pat@tif.ac.th
+const SM_EMAIL = "aaksarapak.han@tif.ac.th";   // อีเมลผู้รับหลัก (ส่งเฉพาะคนนี้)
+const CC_EMAIL = "";                             // ไม่มี CC (ส่งเฉพาะอีเมลนี้เท่านั้น)
 
 // นำ Web App URL ที่ได้จาก Google Apps Script มาวางในเครื่องหมายคำพูดด้านล่าง:
 const GOOGLE_SCRIPT_URL = ""; 
